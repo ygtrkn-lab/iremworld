@@ -12,6 +12,9 @@ out/
 build/
 dist/
 
+# Uploads - images should be on Cloudinary, not in repo
+public/uploads/
+
 # Sistem dosyaları
 .DS_Store
 Thumbs.db
