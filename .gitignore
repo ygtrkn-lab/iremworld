@@ -1,0 +1,47 @@
+# Node / Next build artifacts
+.next/
+**/node_modules/
+
+# Vercel deployment metadata
+.vercel/
+
+# Logs and coverage
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
+
+# Environment files
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+
+# Local archives and production bundles
+iremworld-production/
+iremworld-production.zip
+*.zip
+
+# Database dumps and backups
+iremworld_backup.sql
+iremworld_db/
+iremworld_dbase.sql
+iremworld_db.sql
+*.nb3
+
+# Exported datasets not needed in repo
+exports/
+
+# Miscellaneous local projects not part of deploy
+reactproject1/
